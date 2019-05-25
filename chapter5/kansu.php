@@ -158,7 +158,7 @@ $data=['PHP','Perl','Ruby','Python','JavaScript'];
 array_slice($data,2,3);
 array_slice($data,2,3,true);//trueの場合元々のインデックス番号を引き継ぐ
 array_slice($data,4);
-array_splice($data,-4,-3);
+array_slice($data,-4,-3);
 
 
 
